@@ -1,0 +1,43 @@
+#prompt the user
+#take in user input
+userChoice = input ('Welcome to the Game. Choose Left, Right or Center')
+
+if userChoice == "Left":
+    print ("Bad Choice")
+    print ("You fell in a hole")
+
+    userChoice = input ('Left or Right')
+    if userChoice == "Left":
+        print ("A rat bite your leg")
+    else:
+        print ("Finds a rope on the side of the hole")
+
+    userChoice = input ('Left or Right')
+    if userChoice == "Left":
+        print ("A rat bite your leg")
+    else:
+        print ("Finds a rope on the side of the hole")
+
+elif userChoice == "Right":
+    print ("Good Choice")
+    print ("You found a puppy")
+
+    userChoice = input ('Left or Right')
+    if userChoice == "Left":
+        print ("The puppy has rabbies and needs shots \n You need to spend $150")
+    else:
+        print ("Went to the Police to turn in the puppy")
+        print("It is a stray puppy so they let you keep it")
+
+    userChoice = input ('Left or Right')
+    if userChoice == "Left":
+        print ("A rat bite your leg")
+    else:
+        print ("Finds a rope on the side of the hole")
+
+elif userChoice == "Center":
+    print ("Nothing.")
+    print ("Try again")
+
+else:
+    print ("That doesn't make sense")
